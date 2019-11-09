@@ -31,8 +31,8 @@ include_once("model/data.php"); ?>
     $ctyadd = $_REQUEST['ctyadd'];
     $addNhom  = $_REQUEST['addNhom'];
 
-    danhba::addDB($tenadd, $emailadd, $phoneadd,$addNhom);
-    header('Location: /contact.php');
+    danhba::addDB($tenadd, $emailadd, $phoneadd,$ctyadd,$addNhom);
+    header('Location: contact.php');
   }
   elseif (isset($_REQUEST['submitnhomadd'])) {
     $nhomadd= $_REQUEST['nhomadd'];
