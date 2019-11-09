@@ -81,7 +81,7 @@ INSERT INTO `nhandan` (`maNhan`, `maUser`, `tenNhan`) VALUES
 (2, 1, 'Xã hội'),
 (3, 1, 'Công việc'),
 (4, 1, 'Vui chơi'),
-(5, 2, 'Nhậu'),
+
 
 
 -- --------------------------------------------------------
